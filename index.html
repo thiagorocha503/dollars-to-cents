@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dollar to cents</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1 id="title">Dollars to cents</h1>
+        <div id="form">
+            <div id="col-input">
+                <input type="number" id="input-dollar" placeholder="Enter dollar value" />
+            </div>
+            <div id="col-button">
+                <input type="button" value="Convert" id="button-convert" onclick="onConvert();" />
+            </div>
+        </div>
+        <div id="result">
+            <p id="total-cents"></p>
+            <table id="table-coins">
+            </table>
+        </div>
+        <div id="footer">
+            <p>
+                Made with <span>💙</span> by
+                <a href="http://github.com/thiagorocha503/dollars-to-cents" target="_blank" rel="noopener noreferrer" id="github-link">Thiago Rocha</a>
+            </p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
